@@ -1,13 +1,19 @@
-body {
+body { 
   font-family: 'Courier New', Courier, monospace;
+
 }
 
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  gap: 8px;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,4 +29,26 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.text{display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+gap: 8px
+;
+}
+.plants{
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  justify-content: space-around;
+}
+
+
+/* {outline: 2px solid red;}*/
+.kdot {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap:8px;
 }
