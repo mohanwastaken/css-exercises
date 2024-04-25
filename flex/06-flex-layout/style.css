@@ -38,12 +38,10 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  text-decoration:double
+  
 }
 li{
   list-style-type:none;
-  
-
 }
 .left-links{
   flex-direction: row;
