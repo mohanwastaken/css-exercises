@@ -32,7 +32,6 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #eee;
 }
 ul {
   display: flex;
@@ -66,3 +65,11 @@ li{
 .right-links{
   margin-right: 5px;
 }
+a {
+  text-decoration: none;
+  color:gray;
+  display: flex;
+
+}
+
+/*{outline: 2px solid red;}
